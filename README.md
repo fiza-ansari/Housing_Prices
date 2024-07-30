@@ -46,15 +46,19 @@ _**Matrix Interpretation:**_
 
 **Self-Correlation:**
 •	The diagonal elements of the matrix are all 1 because each feature is perfectly correlated with itself.
+
 **Price Relationships:**
 •	The price of a property tends to go up as the number of bathrooms, bedrooms, and total rooms increases. This is shown by the moderate positive correlations: 0.32 with bathrooms, 0.4 with bedrooms, and 0.39 with total rooms.
 •	However, the size of the property in marla (a unit of area) doesn’t have much of a direct relationship with the price (correlation of 0.011), meaning the area size doesn't significantly affect the price.
-Bathrooms, Bedrooms, and Total Rooms:
+
+**Bathrooms, Bedrooms, and Total Rooms:**
 •	Properties with more bathrooms tend to have more rooms overall. Bathrooms are strongly correlated with total rooms (0.93) and moderately correlated with bedrooms (0.62).
 •	Similarly, the total number of rooms is highly correlated with the number of bedrooms (0.86) and bathrooms (0.93), indicating that properties with more rooms typically have more bedrooms and bathrooms.
+
 **Price Per Unit Area:**
 •	The price per unit area (how much the property costs per unit of area) is somewhat related to the overall price of the property, with a moderate positive correlation of 0.4.
 •	However, the price per unit area doesn’t have strong correlations with other features like bathrooms, bedrooms, total rooms, or area in marla.
+
 **4.	Predictive Modeling:** 
 •	Train a machine learning model to predict house prices based on the available features. Popular choices for this task include linear regression, random forest, or gradient boosting.
 •	Evaluate the performance of the model using appropriate metrics (e.g., mean squared error, R-squared).
